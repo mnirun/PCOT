@@ -22,6 +22,8 @@
 
 ## แนะนำโปรแกรม
 
+[PCOT](http://www.gc-net.jp/s_54/) เป็น translation support tools โดยคุณ Nuruppo ใช้เทคโนโลยี[การรู้จำอักขระด้วยแสง (OCR)](https://th.wikipedia.org/wiki/การรู้จำอักขระด้วยแสง) บวกเข้ากับ[การแปลด้วยเครื่อง (machine translation)](https://th.wikipedia.org/wiki/การแปลด้วยเครื่อง) รองรับ Google Translate และ Microsoft DeepL Translate
+
 ### PCOT vs Google Translate
 
 ## การติดตั้งโปรแกรม
