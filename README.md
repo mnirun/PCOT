@@ -2,7 +2,7 @@
 วิธีการใช้งานโปรแกรมแปลภาษา PCOT
 
  - [แนะนำโปรแกรม](#แนะนำโปรแกรม)
-   - [PCOT vs Google Translate](#pcot-vs-google-translate)
+   - [Google Lens vs PCOT](#google-lens-vs-pcot)
  - [การติดตั้งโปรแกรม](#การติดตั้งโปรแกรม)
    - [การติดตั้งโปรแกรม PCOT](#การติดตั้งโปรแกรม-pcot)
    - [การติดตั้งโปรแกรม Microsoft Visual C++ 2015-2022 Redistributable](#การติดตั้งโปรแกรม-microsoft-visual-c-2015-2022-redistributable)
@@ -25,33 +25,47 @@
 
 [PCOT](http://www.gc-net.jp/s_54/) เป็น translation support tools โดยคุณ Nuruppo ใช้เทคโนโลยี[การรู้จำอักขระด้วยแสง (OCR)](https://th.wikipedia.org/wiki/การรู้จำอักขระด้วยแสง) บวกเข้ากับ[การแปลด้วยเครื่อง (machine translation)](https://th.wikipedia.org/wiki/การแปลด้วยเครื่อง) รองรับ Google Translate และ Microsoft DeepL Translate
 
-### PCOT vs Google Translate
+### Google Lens vs PCOT
+
+|Google Lens|PCOT|
+|-|-|
+|แสดงข้อความที่แปลบนข้อความต้นฉบับ|แสดงข้อความที่แปลในโปรแกรม PCOT|
+|ใช้งานผ่านกล้องบนมือถือ|ใช้งานผ่านโปรแกรมบนเครื่องคอมพิวเตอร์|
+|ใช้การถือมือถือโฟกัสบนข้อความที่หน้าจอเพื่อแปลภาษา|ใช้การกำหนด region ที่ต้องการบนหน้าจอเพื่อการแปลภาษา|
+|ตั้งค่า image processing ไม่ได้|ตั้งค่า image processing ได้ เพื่อแปลภาษาที่แม่นยำขึ้น|
+|เลือกใช้ OCR engine ไม่ได้|เลือกใช้ [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) หรือ Windows 10 OCR ได้|
+|ใช้บริการ Google Translate เท่านั้น|เลือกใช้บริการ Google Translate และ [Microsoft DeepL](https://www.deepl.com/en/windows-app/) ได้พร้อมกัน|
 
 ## การติดตั้งโปรแกรม
 
 ### การติดตั้งโปรแกรม PCOT
 
-PCOT [download](http://www.gc-net.jp/s_54/)
-
-![PCOT_01_Download_01_Button](Pictures/PCOT_01_Download_01_Button.png)
-
-![PCOT_01_Download_02_Button](Pictures/PCOT_01_Download_02_Button.png)
+ - เปิดไปที่เวป [PCOT](http://www.gc-net.jp/s_54/)
+ - กดปุ่ม **「DL」**
+   ![PCOT_01_Download_01_Button](Pictures/PCOT_01_Download_01_Button.png)
+ - กดปุ่ม **「Download」**
+   ![PCOT_01_Download_02_Button](Pictures/PCOT_01_Download_02_Button.png)
 
 ### การติดตั้งโปรแกรม Microsoft Visual C++ 2015-2022 Redistributable
 
 Microsoft Visual C++ 2015-2022 Redistributable v14.36.32532
- - x86: [https://aka.ms/vs/17/release/vc_redist.x86.exe](https://aka.ms/vs/17/release/vc_redist.x86.exe)
  - x64: [https://aka.ms/vs/17/release/vc_redist.x64.exe](https://aka.ms/vs/17/release/vc_redist.x64.exe)
+ - x86: [https://aka.ms/vs/17/release/vc_redist.x86.exe](https://aka.ms/vs/17/release/vc_redist.x86.exe)
 
-![Microsoft_01_Setup_01](Pictures/Microsoft_01_Setup_01.png)
-
-![Microsoft_01_Setup_03](Pictures/Microsoft_01_Setup_03.png)
+ - รันไฟล์ Microsoft Visual C++ 2015-2022 Redistributable ติ๊กถูกที่ 「I agree to the license terms and conditions」 แล้วกดปุ่ม 「Install」
+   ![Microsoft_01_Setup_01](Pictures/Microsoft_01_Setup_01.png)
+ - รอจนโปรแกรมติดตั้งเสร็จ แล้วกดปุ่ม 「Close」
+   ![Microsoft_01_Setup_03](Pictures/Microsoft_01_Setup_03.png)
 
 ข้อมูลเพิ่มเติม: [Microsoft Visual C++ Redistributable latest supported downloads](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
 
 ### การติดตั้งโปรแกรม MPC-BE Portable
 
-MPC-BE [download](https://www.videohelp.com/software/MPC-BE)
+MPC-BE
+ - x64: [MPC-BE.1.6.8.5.x64](https://www.videohelp.com/download/MPC-BE.1.6.8.5.x64.7z)
+ - x86: [MPC-BE.1.6.8.5.x86](https://www.videohelp.com/download/MPC-BE.1.6.8.5.x86.7z)
+
+ที่มา: [MPC-BE](https://www.videohelp.com/software/MPC-BE)
 
 ## การตั้งค่าโปรแกรม
 
