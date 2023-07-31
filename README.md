@@ -52,16 +52,16 @@
 ### การติดตั้งโปรแกรม PCOT
 
  - เปิดไปที่เวป [PCOT](http://www.gc-net.jp/s_54/)
- - กดปุ่ม **「DL」**
+ - กดปุ่ม **「DL」** จะ link ไปยังไฟล์ที่เก็บอยู่ใน Microsoft OneDrive
    
-   ![PCOT_01_Download_01](Pictures/PCOT_01_Download_01.png)
+   <kbd>![PCOT_01_Download_01](Pictures/PCOT_01_Download_01.png)</kbd>
  - กดปุ่ม **「Download」**
    
-   ![PCOT_01_Download_02](Pictures/PCOT_01_Download_02.png)
+   <kbd>![PCOT_01_Download_02](Pictures/PCOT_01_Download_02.png)</kbd>
 
  - เมื่อ download ไฟล์เสร็จแล้ว ให้แตกไฟล์ไปไว้ที่ "C:\Translator" หรือโฟลเดอร์อื่น ๆ ตามที่ต้องการ
 
-   ![PCOT_01_Download_03](Pictures/PCOT_01_Download_03.png)
+   <kbd>![PCOT_01_Download_03](Pictures/PCOT_01_Download_03.png)</kbd>
 
 ### การติดตั้งโปรแกรม Microsoft Visual C++ 2015-2022 Redistributable
 
@@ -76,10 +76,10 @@
 
  - รันไฟล์ Microsoft Visual C++ 2015-2022 Redistributable ติ๊กถูกที่「I agree to the license terms and conditions」 แล้วกดปุ่ม 「Install」
    
-   ![Microsoft_01_Setup_01](Pictures/Microsoft_01_Setup_01.png)
+   <kbd>![Microsoft_01_Setup_01](Pictures/Microsoft_01_Setup_01.png)</kbd>
  - รอจนโปรแกรมติดตั้งเสร็จ แล้วกดปุ่ม 「Close」
    
-   ![Microsoft_01_Setup_03](Pictures/Microsoft_01_Setup_03.png)
+   <kbd>![Microsoft_01_Setup_03](Pictures/Microsoft_01_Setup_03.png)</kbd>
 
 ### การติดตั้งโปรแกรม MPC-BE Portable
 
