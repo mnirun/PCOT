@@ -33,6 +33,10 @@
 
 PCOT [download](http://www.gc-net.jp/s_54/)
 
+[PCOT_01_Download_01_Button](Pictures/PCOT_01_Download_01_Button.png)
+
+[PCOT_01_Download_02_Button](Pictures/PCOT_01_Download_02_Button.png)
+
 ### การติดตั้งโปรแกรม Microsoft Visual C++ 2015-2022 Redistributable
 
 Microsoft Visual C++ 2015-2022 Redistributable v14.36.32532
