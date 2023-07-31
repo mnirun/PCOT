@@ -23,18 +23,17 @@
 
 ## แนะนำโปรแกรม
 
-[PCOT](http://www.gc-net.jp/s_54/) เป็น translation support tools โดยคุณ Nuruppo ใช้เทคโนโลยี[การรู้จำอักขระด้วยแสง (OCR)](https://th.wikipedia.org/wiki/การรู้จำอักขระด้วยแสง) บวกเข้ากับ[การแปลด้วยเครื่อง (machine translation)](https://th.wikipedia.org/wiki/การแปลด้วยเครื่อง) รองรับ Google Translate และ Microsoft DeepL Translate
+[PCOT](http://www.gc-net.jp/s_54/) เป็น translation support tools โดยคุณ Nuruppo ใช้เทคโนโลยี[การรู้จำอักขระด้วยแสง (OCR)](https://th.wikipedia.org/wiki/การรู้จำอักขระด้วยแสง) รวมเข้ากับ[การแปลด้วยเครื่อง (machine translation)](https://th.wikipedia.org/wiki/การแปลด้วยเครื่อง) โดยใช้บริการจาก Google Translate และ [Microsoft DeepL Translate](https://www.deepl.com/en/windows-app/)
 
 ### Google Lens vs PCOT
 
 |Google Lens|PCOT|
 |-|-|
-|แสดงข้อความที่แปลบนข้อความต้นฉบับ|แสดงข้อความที่แปลในโปรแกรม PCOT|
-|ใช้งานผ่านกล้องบนมือถือ|ใช้งานผ่านโปรแกรมบนเครื่องคอมพิวเตอร์|
-|ใช้การถือมือถือโฟกัสบนข้อความที่หน้าจอเพื่อแปลภาษา|ใช้การกำหนด region ที่ต้องการบนหน้าจอเพื่อการแปลภาษา|
+|ใช้งานผ่านการถือมือถือโดยโฟกัสข้อความที่หน้าจอเพื่อแปลภาษา|ใช้งานผ่านโปรแกรมบนเครื่องคอมพิวเตอร์โดยระบุ region ที่ต้องการแปลภาษาบนหน้าจอ|
+|แสดงข้อความที่แปลภาษาแทนที่ข้อความต้นฉบับ|แสดงข้อความที่แปลภาษาในโปรแกรม PCOT|
 |ตั้งค่า image processing ไม่ได้|ตั้งค่า image processing ได้ เพื่อแปลภาษาที่แม่นยำขึ้น|
 |เลือกใช้ OCR engine ไม่ได้|เลือกใช้ [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) หรือ Windows 10 OCR ได้|
-|ใช้บริการ Google Translate เท่านั้น|เลือกใช้บริการ Google Translate และ [Microsoft DeepL](https://www.deepl.com/en/windows-app/) ได้พร้อมกัน|
+|ใช้บริการ Google Translate เท่านั้น|เลือกใช้บริการ Google Translate และ [Microsoft DeepL Translate](https://www.deepl.com/en/windows-app/) ได้พร้อมกัน|
 
 ## การติดตั้งโปรแกรม
 
