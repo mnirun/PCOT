@@ -5,13 +5,13 @@
    - [PCOT vs Google Translate](#pcot-vs-google-translate)
  - [การติดตั้งโปรแกรม](#การติดตั้งโปรแกรม)
    - [การติดตั้งโปรแกรม PCOT](#การติดตั้งโปรแกรม-pcot)
-   - [การติดตั้งโปรแกรม Visual C++ Redistributable for Visual Studio 2015](#การติดตั้งโปรแกรม-visual-c-redistributable-for-visual-studio-2015)
-   - [การติดตั้งโปรแกรม PotPlayer Portable](#การติดตั้งโปรแกรม-potplayer-portable)
+   - [การติดตั้งโปรแกรม Microsoft Visual C++ 2015-2022 Redistributable](#การติดตั้งโปรแกรม-microsoft-visual-c-2015-2022-redistributable)
+   - [การติดตั้งโปรแกรม MPC-BE Portable](#การติดตั้งโปรแกรม-mpc-be-portable)
  - [การตั้งค่าโปรแกรม](#การตั้งค่าโปรแกรม)
    - [การตั้งค่าโปรแกรม PCOT](#การตั้งค่าโปรแกรม-pcot)
      - [การตั้งค่าเริ่มต้น](#การตั้งค่าเริ่มต้น)
      - [การเพิ่มภาษา](#การเพิ่มภาษา)
-   - [การตั้งค่าโปรแกรม PotPlayer](#การตั้งค่าโปรแกรม-potplayer)
+   - [การตั้งค่าโปรแกรม MPC-BE](#การตั้งค่าโปรแกรม-mpc-be)
  - [การใช้งาน PCOT](#การใช้งาน-pcot)
    - [การเลือกภาษา](#การเลือกภาษา)
    - [รูปแบบการแปลภาษา](#รูปแบบการแปลภาษา)
@@ -31,9 +31,19 @@
 
 ### การติดตั้งโปรแกรม PCOT
 
-### การติดตั้งโปรแกรม Visual C++ Redistributable for Visual Studio 2015
+PCOT [download](http://www.gc-net.jp/s_54/)
 
-### การติดตั้งโปรแกรม PotPlayer Portable
+### การติดตั้งโปรแกรม Microsoft Visual C++ 2015-2022 Redistributable
+
+Microsoft Visual C++ 2015-2022 Redistributable v14.36.32532
+ - x86: [https://aka.ms/vs/17/release/vc_redist.x86.exe](https://aka.ms/vs/17/release/vc_redist.x86.exe)
+ - x64: [https://aka.ms/vs/17/release/vc_redist.x64.exe](https://aka.ms/vs/17/release/vc_redist.x64.exe)
+
+ข้อมูลเพิ่มเติม: [Microsoft Visual C++ Redistributable latest supported downloads](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
+
+### การติดตั้งโปรแกรม MPC-BE Portable
+
+MPC-BE [download](https://www.videohelp.com/software/MPC-BE)
 
 ## การตั้งค่าโปรแกรม
 
@@ -43,7 +53,7 @@
 
 #### การเพิ่มภาษา
 
-### การตั้งค่าโปรแกรม PotPlayer
+### การตั้งค่าโปรแกรม MPC-BE
 
 ## การใช้งาน PCOT
 
