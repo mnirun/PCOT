@@ -1,4 +1,4 @@
-# PCOT (Process Connect OCR Translator)
+# PCOT (Process Connect OCR Translator) - Draft 2023/07/31
 วิธีการใช้งานโปรแกรมแปลภาษา PCOT
 
  - [แนะนำโปรแกรม](#แนะนำโปรแกรม)
@@ -23,7 +23,19 @@
 
 ## แนะนำโปรแกรม
 
-[PCOT](http://www.gc-net.jp/s_54/) เป็น translation support tools โดยคุณ Nuruppo ใช้เทคโนโลยี[การรู้จำอักขระด้วยแสง (OCR)](https://th.wikipedia.org/wiki/การรู้จำอักขระด้วยแสง) รวมเข้ากับ[การแปลด้วยเครื่อง (machine translation)](https://th.wikipedia.org/wiki/การแปลด้วยเครื่อง) โดยใช้บริการจาก Google Translate และ [Microsoft DeepL Translate](https://www.deepl.com/en/windows-app/)
+โปรแกรม [PCOT](http://www.gc-net.jp/s_54/) เป็น translation support tools โดยคุณ Nuruppo ที่ใช้เทคโนโลยี[การรู้จำอักขระด้วยแสง (OCR)](https://th.wikipedia.org/wiki/การรู้จำอักขระด้วยแสง) รวมเข้ากับ[การแปลด้วยเครื่อง (machine translation)](https://th.wikipedia.org/wiki/การแปลด้วยเครื่อง) โดยใช้บริการแปลภาษาจาก Google Translate และ [Microsoft DeepL Translate](https://www.deepl.com/en/windows-app/) ทำให้การแปลภาษาจากรูปภาพเป็นเรื่องที่ง่ายเพียงแค่คลิกเดียวเท่านั้น
+
+เดิมที PCOT ถูกพัฒนามาเพื่อแปลภาษาในเกมส์บน Windows เป็นหลัก แต่ตัวผมเองนำมาประยุกต์ให้ใช้แปลเกมส์จากเครื่อง Nintedo Switch (หรือเครื่องเล่นเกมส์อื่น ๆ) ผ่านการใช้งาน HDMI capture card โดยแสดงหน้าจอเกมส์ด้วยโปรแกรม MPC-BE
+
+เหตุผลที่เลือก PCOT + MPC-BE เพื่อใช้แปลภาษาจากเกมส์เนื่องจาก
+ - โปรแกรมมีขนาดเล็ก ทั้งสองโปรแกรมรวมกันไม่ถึง 40 MB และไม่จำเป็นต้องติดตั้งโปรแกรม เพียงแค่แตกไฟล์ก็พร้อมใช้งานได้ทันที
+   - ขนาดไฟล์ที่ download
+     - **PCOT v1.6.0:** 26,522,036 bytes
+     - **MPC-BE v1.6.8.5 x64:** 13,380,429 bytes
+ - PCOT สามารถตั้งค่า image processing ได้ ช่วยให้แปลภาษาแม่นยำมากขึ้น
+ - ฟรี ไม่มีค่าใช้จ่าย
+
+ส่วนข้อเสียของ PCOT ก็อาจจะเป็นโปรแกรมที่คุณ Nuruppo พัฒนามาเพื่อใช้งานส่วนตัวเป็นหลัก (อ้างอิงจากบทสัมภาษณ์จาก [GameSpark](https://www.gamespark.jp/article/2021/07/02/110097.html)) ทำให้หน้าจอโปรแกรมมีแค่ภาษาญี่ปุ่นเท่านั้น, ไม่มีคู่มือสอนการใช้งาน (แต่ก็มีคนญี่ปุ่นหลาย ๆ ท่านทำคลิปสอบพร้อมคำบรรยายภาษาอังกฤษ เช่น [Yamachannel](https://www.youtube.com/watch?v=hvPRcvR8bCo) เป็นต้น) ซึ่งบทความนี้ก็จะแนะนำการติดตั้งและใช้งาน PCOT เบื้องต้นให้เป็นขั้นตอนที่สามารถทำตามได้ด้วยตนเอง แต่จะไม่ได้แนะนำถึงการแปลด้วย [Microsoft DeepL Translate](https://www.deepl.com/en/windows-app/) เนื่องจาก DeepL ยังไม่ได้รองรับการแปลเป็นภาษาไทย หากอนาคตรองรับผมจะกลับมาอัพเดทเพิ่มเติมให้ครับ
 
 ### Google Lens vs PCOT
 
@@ -31,7 +43,7 @@
 |-|-|
 |ใช้งานผ่านการถือมือถือโดยโฟกัสข้อความที่หน้าจอเพื่อแปลภาษา|ใช้งานผ่านโปรแกรมบนเครื่องคอมพิวเตอร์โดยระบุ region ที่ต้องการแปลภาษาบนหน้าจอ|
 |แสดงข้อความที่แปลภาษาแทนที่ข้อความต้นฉบับ|แสดงข้อความที่แปลภาษาในโปรแกรม PCOT|
-|ตั้งค่า image processing ไม่ได้|ตั้งค่า image processing ได้ เพื่อแปลภาษาที่แม่นยำขึ้น|
+|ตั้งค่า image processing ไม่ได้|ตั้งค่า image processing ได้ ช่วยให้แปลภาษาแม่นยำมากขึ้น|
 |เลือกใช้ OCR engine ไม่ได้|เลือกใช้ [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) หรือ Windows 10 OCR ได้|
 |ใช้บริการ Google Translate เท่านั้น|เลือกใช้บริการ Google Translate และ [Microsoft DeepL Translate](https://www.deepl.com/en/windows-app/) ได้พร้อมกัน|
 
@@ -42,25 +54,32 @@
  - เปิดไปที่เวป [PCOT](http://www.gc-net.jp/s_54/)
  - กดปุ่ม **「DL」**
    
-   ![PCOT_01_Download_01_Button](Pictures/PCOT_01_Download_01_Button.png)
+   ![PCOT_01_Download_01](Pictures/PCOT_01_Download_01.png)
  - กดปุ่ม **「Download」**
    
-   ![PCOT_01_Download_02_Button](Pictures/PCOT_01_Download_02_Button.png)
+   ![PCOT_01_Download_02](Pictures/PCOT_01_Download_02.png)
+
+ - เมื่อ download ไฟล์เสร็จแล้ว ให้แตกไฟล์ไปไว้ที่ "C:\Translator" หรือโฟลเดอร์อื่น ๆ ตามที่ต้องการ
+
+   ![PCOT_01_Download_03](Pictures/PCOT_01_Download_03.png)
 
 ### การติดตั้งโปรแกรม Microsoft Visual C++ 2015-2022 Redistributable
 
-Microsoft Visual C++ 2015-2022 Redistributable v14.36.32532
- - x64: [https://aka.ms/vs/17/release/vc_redist.x64.exe](https://aka.ms/vs/17/release/vc_redist.x64.exe)
- - x86: [https://aka.ms/vs/17/release/vc_redist.x86.exe](https://aka.ms/vs/17/release/vc_redist.x86.exe)
+การใช้งาน PCOT จำเป็นต้องติดตั้ง Microsoft Visual C++ 2015-2022 Redistributable ก่อน หากในเครื่องคอมพิวเตอร์ติดตั้งไว้แล้ว (ทดสอบง่าย ๆ โดยให้ลองรันไฟล์ **"C:\Translator\PCOT\PCOT.exe"** หากรันได้แสดงว่าได้ติดตั้ง runtime เอาไว้แล้ว) สามารถข้ามขั้นตอนนี้ไปยังขั้นตอน[การติดตั้งโปรแกรม MPC-BE Portable](#การติดตั้งโปรแกรม-mpc-be-portable) ได้ครับ
 
- - รันไฟล์ Microsoft Visual C++ 2015-2022 Redistributable ติ๊กถูกที่ 「I agree to the license terms and conditions」 แล้วกดปุ่ม 「Install」
+ - ทำการ download Microsoft Visual C++ 2015-2022 Redistributable โดยเลือกรุ่น Windows ให้ตรงกับที่ใช้งาน
+   - x64: [https://aka.ms/vs/17/release/vc_redist.x64.exe](https://aka.ms/vs/17/release/vc_redist.x64.exe)
+   - x86: [https://aka.ms/vs/17/release/vc_redist.x86.exe](https://aka.ms/vs/17/release/vc_redist.x86.exe)
+   - ข้อมูลเพิ่มเติม
+     - [Windows รุ่น 32 บิตและ 64 บิต: คำถามที่ถามบ่อย](https://support.microsoft.com/th-th/windows/windows-รุ่น-32-บิตและ-64-บิต-คำถามที่ถามบ่อย-c6ca9541-8dce-4d48-0415-94a3faa2e13d)
+     - [Microsoft Visual C++ Redistributable latest supported downloads](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
+
+ - รันไฟล์ Microsoft Visual C++ 2015-2022 Redistributable ติ๊กถูกที่「I agree to the license terms and conditions」 แล้วกดปุ่ม 「Install」
    
    ![Microsoft_01_Setup_01](Pictures/Microsoft_01_Setup_01.png)
  - รอจนโปรแกรมติดตั้งเสร็จ แล้วกดปุ่ม 「Close」
    
    ![Microsoft_01_Setup_03](Pictures/Microsoft_01_Setup_03.png)
-
-ข้อมูลเพิ่มเติม: [Microsoft Visual C++ Redistributable latest supported downloads](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
 
 ### การติดตั้งโปรแกรม MPC-BE Portable
 
