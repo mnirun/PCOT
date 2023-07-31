@@ -124,6 +124,55 @@ MPC-BE โปรแกรมเล่นสื่อมัลติมีเด�
 
 #### การตั้งค่าเริ่มต้น
 
+ - รันไฟล์ **"C:\Translator\PCOT\PCOT.exe"** แล้วกดที่ **"<ins>More info</ins>"**
+
+   <kbd>![PCOT_02_Setup_01](Pictures/PCOT_02_Setup_01.png)</kbd>
+ - กดปุ่ม **"Run anyway"**
+
+   <kbd>![PCOT_02_Setup_02](Pictures/PCOT_02_Setup_02.png)</kbd>
+ - โปรแกรมจะแสดงหน้าจอโพรเซส (Process ที่เป็นคำแรกของชื่อโปรแกรม <ins>P</ins>COT) ที่เราต้องการแปลภาษา ในที่นี้เราจะเลือกรายการที่ **"タイトル (Title)"** ชื่อว่า **"MPC-BE x64 1.6.8.5"** หรือดูจากรายการที่ **"プロセス名 (Process name)"** ชื่อว่า **"mpc-be64"** ก็ได้เช่นกัน จากนั้นให้กดปุ่ม **"選択 (Selection)"** ทางด้านล่าง
+
+   <kbd>![PCOT_02_Setup_03](Pictures/PCOT_02_Setup_03.png)</kbd>
+ - ที่มุมล่างซ้ายของโปรแกรมจะแสดงชื่อโพรเซสที่ทำการเชื่อต่ออยู่ **"接続中 (Connecting)"** (Connect ที่เป็นคำที่สองของชื่อโปรแกรม P<ins>C</ins>OT)
+
+   <kbd>![PCOT_02_Setup_04](Pictures/PCOT_02_Setup_04.png)</kbd>
+ - ไปที่เมนู **"設定 (Setting)"** → **"システム設定 (System setting)"**
+
+   <kbd>![PCOT_02_Setup_05](Pictures/PCOT_02_Setup_05.png)</kbd>
+ - ที่หน้าต่าง **"PCOTシステム設定  (PCOT system settings)"** เราจะทำการเปลี่ยนฟอนต์ในหัวข้อ **"フォント設定 (Font settings)"** เพื่อให้อ่านข้อความได้ง่ายขึ้น
+   - กดที่ปุ่ม **"原文フォント設定 (Source font setting)"** เพื่อเปลี่ยนฟอนต์ภาษาต้นฉบับที่ยังไม่ได้แปล
+     
+     <kbd>![PCOT_02_Setup_06_01](Pictures/PCOT_02_Setup_06_01.png)</kbd>
+     
+     <kbd>![PCOT_02_Setup_07](Pictures/PCOT_02_Setup_07.png)</kbd>
+   - กดที่ปุ่ม **"訳文フォント設定 (Translation font setting)"** เพื่อเปลี่ยนฟอนต์ภาษาที่แปลแล้ว
+
+     <kbd>![PCOT_02_Setup_06_02](Pictures/PCOT_02_Setup_06_02.png)</kbd>
+
+     <kbd>![PCOT_02_Setup_08](Pictures/PCOT_02_Setup_08.png)</kbd>
+ - เมื่อเปลี่ยนฟอนต์เสร็จแล้ว ให้
+   - กดปุ่ม **"確定 (Confirm)"** เพื่อยืนยันการตั้งค่า
+   - หรือกดปุ่ม **"キャンセル (Cancel)"** ขวาสุด เพื่อยกเลิกการตั้งค่า
+   - หรือกดปุ่ม **"リセット (Reset)"** ซ้ายสุด เพื่อรีเซ็ตเป็นค่าเริ่มต้น
+
+     <kbd>![PCOT_02_Setup_09](Pictures/PCOT_02_Setup_09.png)</kbd>
+
+##### รายการตั้งค่าอื่น ๆ ที่น่าสนใจ
+
+ - 共通動作設定 (Common operation settings)
+   - 終了時に画面の座標とサイズを記憶 (Remember screen coordinates and size on exit)
+
+     <kbd>![PCOT_02_Setup_09_01](Pictures/PCOT_02_Setup_09_01.png)</kbd>
+   - 翻訳後に音声出力 (Voice output after translation)
+  
+     <kbd>![PCOT_02_Setup_09_02](Pictures/PCOT_02_Setup_09_02.png)</kbd>
+   - 範囲選択時にスクリーンショット取得 (Take a screenshot when selecting a range)
+  
+     <kbd>![PCOT_02_Setup_09_03](Pictures/PCOT_02_Setup_09_03.png)</kbd>
+   - 翻訳後にフォーカスを対象プロセスに戻す (Return focus to target process after translation)
+  
+     <kbd>![PCOT_02_Setup_09_04](Pictures/PCOT_02_Setup_09_04.png)</kbd>
+
 #### การเพิ่มภาษา
 
 ## การใช้งาน PCOT
