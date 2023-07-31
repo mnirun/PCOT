@@ -8,10 +8,10 @@
    - [การติดตั้งโปรแกรม Microsoft Visual C++ 2015-2022 Redistributable](#การติดตั้งโปรแกรม-microsoft-visual-c-2015-2022-redistributable)
    - [การติดตั้งโปรแกรม MPC-BE Portable](#การติดตั้งโปรแกรม-mpc-be-portable)
  - [การตั้งค่าโปรแกรม](#การตั้งค่าโปรแกรม)
+   - [การตั้งค่าโปรแกรม MPC-BE](#การตั้งค่าโปรแกรม-mpc-be)
    - [การตั้งค่าโปรแกรม PCOT](#การตั้งค่าโปรแกรม-pcot)
      - [การตั้งค่าเริ่มต้น](#การตั้งค่าเริ่มต้น)
      - [การเพิ่มภาษา](#การเพิ่มภาษา)
-   - [การตั้งค่าโปรแกรม MPC-BE](#การตั้งค่าโปรแกรม-mpc-be)
  - [การใช้งาน PCOT](#การใช้งาน-pcot)
    - [การเลือกภาษา](#การเลือกภาษา)
    - [รูปแบบการแปลภาษา](#รูปแบบการแปลภาษา)
@@ -35,7 +35,7 @@
  - PCOT สามารถตั้งค่า image processing ได้ ช่วยให้แปลภาษาแม่นยำมากขึ้น
  - ฟรี ไม่มีค่าใช้จ่าย
 
-ส่วนข้อเสียของ PCOT ก็อาจจะเป็นโปรแกรมที่คุณ Nuruppo พัฒนามาเพื่อใช้งานส่วนตัวเป็นหลัก (อ้างอิงจากบทสัมภาษณ์จาก [GameSpark](https://www.gamespark.jp/article/2021/07/02/110097.html)) ทำให้หน้าจอโปรแกรมมีแค่ภาษาญี่ปุ่นเท่านั้น, ไม่มีคู่มือสอนการใช้งาน (แต่ก็มีคนญี่ปุ่นหลาย ๆ ท่านทำคลิปสอบพร้อมคำบรรยายภาษาอังกฤษ เช่น [Yamachannel](https://www.youtube.com/watch?v=hvPRcvR8bCo) เป็นต้น) ซึ่งบทความนี้ก็จะแนะนำการติดตั้งและใช้งาน PCOT เบื้องต้นให้เป็นขั้นตอนที่สามารถทำตามได้ด้วยตนเอง แต่จะไม่ได้แนะนำถึงการแปลด้วย [Microsoft DeepL Translate](https://www.deepl.com/en/windows-app/) เนื่องจาก DeepL ยังไม่ได้รองรับการแปลเป็นภาษาไทย หากอนาคตรองรับผมจะกลับมาอัพเดทเพิ่มเติมให้ครับ
+ส่วนข้อเสียของ PCOT ก็อาจจะเป็นโปรแกรมที่คุณ Nuruppo พัฒนามาเพื่อใช้งานส่วนตัวเป็นหลัก (อ้างอิงจากบทสัมภาษณ์จาก [GameSpark](https://www.gamespark.jp/article/2021/07/02/110097.html)) ทำให้หน้าจอโปรแกรมมีแค่ภาษาญี่ปุ่นเท่านั้น, ไม่มีคู่มือสอนการใช้งาน (แต่ก็มีคนญี่ปุ่นหลาย ๆ ท่านทำคลิปสอบพร้อมคำบรรยายภาษาอังกฤษ เช่น [Yamachannel](https://www.youtube.com/watch?v=hvPRcvR8bCo) เป็นต้น) ซึ่งบทความนี้ก็จะแนะนำการติดตั้งและใช้งาน PCOT เบื้องต้นให้เป็นขั้นตอนที่สามารถทำตามได้ด้วยตนเอง แต่จะไม่ได้รวมถึงถึงการแปลด้วย [Microsoft DeepL Translate](https://www.deepl.com/en/windows-app/) เนื่องจาก DeepL ยังไม่ได้รองรับการแปลเป็นภาษาไทย หากอนาคตรองรับผมจะกลับมาอัพเดทเพิ่มเติมให้ครับ
 
 ### Google Lens vs PCOT
 
@@ -59,7 +59,7 @@
    
    <kbd>![PCOT_01_Download_02](Pictures/PCOT_01_Download_02.png)</kbd>
 
- - เมื่อ download ไฟล์เสร็จแล้ว ให้แตกไฟล์ไปไว้ที่ "C:\Translator" หรือโฟลเดอร์อื่น ๆ ตามที่ต้องการ
+ - เมื่อ download ไฟล์เสร็จแล้ว ให้แตกไฟล์ไปไว้ที่ **"C:\Translator"** หรือโฟลเดอร์อื่น ๆ ตามที่ต้องการ
 
    <kbd>![PCOT_01_Download_03](Pictures/PCOT_01_Download_03.png)</kbd>
 
@@ -70,9 +70,6 @@
  - ทำการ download Microsoft Visual C++ 2015-2022 Redistributable โดยเลือกรุ่น Windows ให้ตรงกับที่ใช้งาน
    - x64: [https://aka.ms/vs/17/release/vc_redist.x64.exe](https://aka.ms/vs/17/release/vc_redist.x64.exe)
    - x86: [https://aka.ms/vs/17/release/vc_redist.x86.exe](https://aka.ms/vs/17/release/vc_redist.x86.exe)
-   - ข้อมูลเพิ่มเติม
-     - [Windows รุ่น 32 บิตและ 64 บิต: คำถามที่ถามบ่อย](https://support.microsoft.com/th-th/windows/windows-รุ่น-32-บิตและ-64-บิต-คำถามที่ถามบ่อย-c6ca9541-8dce-4d48-0415-94a3faa2e13d)
-     - [Microsoft Visual C++ Redistributable latest supported downloads](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
 
  - รันไฟล์ Microsoft Visual C++ 2015-2022 Redistributable ติ๊กถูกที่「I agree to the license terms and conditions」 แล้วกดปุ่ม 「Install」
    
@@ -81,23 +78,34 @@
    
    <kbd>![Microsoft_01_Setup_03](Pictures/Microsoft_01_Setup_03.png)</kbd>
 
+ - ข้อมูลเพิ่มเติม
+   - [Windows รุ่น 32 บิตและ 64 บิต: คำถามที่ถามบ่อย](https://support.microsoft.com/th-th/windows/windows-รุ่น-32-บิตและ-64-บิต-คำถามที่ถามบ่อย-c6ca9541-8dce-4d48-0415-94a3faa2e13d)
+   - [Microsoft Visual C++ Redistributable latest supported downloads](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
+
 ### การติดตั้งโปรแกรม MPC-BE Portable
 
-MPC-BE
- - x64: [MPC-BE.1.6.8.5.x64](https://www.videohelp.com/download/MPC-BE.1.6.8.5.x64.7z)
- - x86: [MPC-BE.1.6.8.5.x86](https://www.videohelp.com/download/MPC-BE.1.6.8.5.x86.7z)
+MPC-BE โปรแกรมเล่นสื่อมัลติมีเดีย รองรับการแสดงหน้าจอจาก HDMI capture card ผ่านเมนู **"Capture Device..."**
 
-ที่มา: [MPC-BE](https://www.videohelp.com/software/MPC-BE)
+- ทำการ download MPC-BE โดยเลือกรุ่น Windows ให้ตรงกับที่ใช้งาน
+  - x64: [MPC-BE.1.6.8.5.x64](https://www.videohelp.com/download/MPC-BE.1.6.8.5.x64.7z)
+  - x86: [MPC-BE.1.6.8.5.x86](https://www.videohelp.com/download/MPC-BE.1.6.8.5.x86.7z)
+- เมื่อ download ไฟล์เสร็จแล้ว ให้แตกไฟล์ไปไว้ที่ **"C:\Translator"** หรือโฟลเดอร์อื่น ๆ ตามที่ต้องการ
+
+   <kbd>![MPC-BE_01_Download_02](Pictures/MPC-BE_01_Download_02.png)</kbd>
+
+- ข้อมูลเพิ่มเติม
+  - [Windows รุ่น 32 บิตและ 64 บิต: คำถามที่ถามบ่อย](https://support.microsoft.com/th-th/windows/windows-รุ่น-32-บิตและ-64-บิต-คำถามที่ถามบ่อย-c6ca9541-8dce-4d48-0415-94a3faa2e13d)
+  - [MPC-BE](https://www.videohelp.com/software/MPC-BE)
 
 ## การตั้งค่าโปรแกรม
+
+### การตั้งค่าโปรแกรม MPC-BE
 
 ### การตั้งค่าโปรแกรม PCOT
 
 #### การตั้งค่าเริ่มต้น
 
 #### การเพิ่มภาษา
-
-### การตั้งค่าโปรแกรม MPC-BE
 
 ## การใช้งาน PCOT
 
