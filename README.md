@@ -42,8 +42,10 @@
 
  - เปิดไปที่เวป [PCOT](http://www.gc-net.jp/s_54/)
  - กดปุ่ม **「DL」**
+   
    ![PCOT_01_Download_01_Button](Pictures/PCOT_01_Download_01_Button.png)
  - กดปุ่ม **「Download」**
+   
    ![PCOT_01_Download_02_Button](Pictures/PCOT_01_Download_02_Button.png)
 
 ### การติดตั้งโปรแกรม Microsoft Visual C++ 2015-2022 Redistributable
@@ -53,8 +55,10 @@ Microsoft Visual C++ 2015-2022 Redistributable v14.36.32532
  - x86: [https://aka.ms/vs/17/release/vc_redist.x86.exe](https://aka.ms/vs/17/release/vc_redist.x86.exe)
 
  - รันไฟล์ Microsoft Visual C++ 2015-2022 Redistributable ติ๊กถูกที่ 「I agree to the license terms and conditions」 แล้วกดปุ่ม 「Install」
+   
    ![Microsoft_01_Setup_01](Pictures/Microsoft_01_Setup_01.png)
  - รอจนโปรแกรมติดตั้งเสร็จ แล้วกดปุ่ม 「Close」
+   
    ![Microsoft_01_Setup_03](Pictures/Microsoft_01_Setup_03.png)
 
 ข้อมูลเพิ่มเติม: [Microsoft Visual C++ Redistributable latest supported downloads](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
