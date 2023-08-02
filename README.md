@@ -241,10 +241,6 @@ PCOT รองรับการแปลภาษา 2 รูปแบบ ไ�
 
 ### การแปลภาษาแบบ Free Selection
 
- - รันไฟล์ **"C:\Translator\PCOT\PCOT.exe"**
- - โปรแกรมจะแสดงหน้าจอโพรเซสที่เราต้องการแปลภาษา ในที่นี้เราจะเลือกรายการที่ **"タイトル (Title)"** ชื่อว่า **"MPC-BE x64 1.6.8.5"** หรือดูจากรายการที่ **"プロセス名 (Process name)"** ชื่อว่า **"mpc-be64"** ก็ได้เช่นกัน จากนั้นให้กดปุ่ม **"選択 (Selection)"** ทางด้านล่าง
-
-   <kbd>![PCOT_02_Setup_03](Pictures/PCOT_02_Setup_03.png)</kbd>
  - เมื่อเปิดโปรแกรมเข้ามาแล้ว ให้ตรวจสอบ OCR engine, ภาษาต้นฉบับ (source language) และ ภาษาที่ต้องการคำแปล (translate language) ที่ใช้งานอยู่ได้จากตำแหน่งต่าง ๆ ดังรูปด้านล่าง
 
    <kbd>![PCOT_04_Free_Selection_01](Pictures/PCOT_04_Free_Selection_01.png)</kbd>
@@ -296,10 +292,6 @@ PCOT รองรับการแปลภาษา 2 รูปแบบ ไ�
 
 #### การสร้างรายการ Fixed Translation
 
-- รันไฟล์ **"C:\Translator\PCOT\PCOT.exe"**
- - โปรแกรมจะแสดงหน้าจอโพรเซสที่เราต้องการแปลภาษา ในที่นี้เราจะเลือกรายการที่ **"タイトル (Title)"** ชื่อว่า **"MPC-BE x64 1.6.8.5"** หรือดูจากรายการที่ **"プロセス名 (Process name)"** ชื่อว่า **"mpc-be64"** ก็ได้เช่นกัน จากนั้นให้กดปุ่ม **"選択 (Selection)"** ทางด้านล่าง
-
-   <kbd>![PCOT_02_Setup_03](Pictures/PCOT_02_Setup_03.png)</kbd>
  - เมื่อเปิดโปรแกรมเข้ามาแล้ว ให้กดปุ่ม **"固定翻訳設定 (Fixed translation settings)"**
 
    <kbd>![PCOT_05_Fixed_Translation_01](Pictures/PCOT_05_Fixed_Translation_01.png)</kbd>
@@ -352,6 +344,22 @@ PCOT รองรับการแปลภาษา 2 รูปแบบ ไ�
    - **"2. An inventory description"**
 
 #### การแก้ไขรายการ Fixed Translation
+
+ - เมื่อเปิดโปรแกรมเข้ามาแล้ว ให้กดปุ่ม **"固定翻訳設定 (Fixed translation settings)"**
+
+   <kbd>![PCOT_05_Fixed_Translation_01](Pictures/PCOT_05_Fixed_Translation_01.png)</kbd>
+ - ที่หน้าต่าง **"固定翻訳タイトル設定 (Fixed translation title setting)"** จะมีปุ่มอยู่ทั้งหมด 4 ปุ่ม ได้แก่
+   - **新規作成 (Create New)** = สร้างรายการ fixed translation
+   - **編集 (Edit)** = แก้ไขพื้นที่หน้าจอของรายการ fixed translation
+     - หากต้องการแก้ไขพื้นที่หน้าจอของรายการ fixed translation เนื่องจากพื้นที่เดิมไม่ครอบคลุมข้อความทั้งหมด เป็นต้น ให้เลือกรายการ fixed translation ที่ต้องการ
+     - กดปุ่ม **編集 (Edit)**
+     - โปรแกรมจะแสดงข้อความ **"編集内容を保存しました。続けて翻訳範囲を編集しますか？ (Your edits have been saved. Do you want to continue editing the translation range?)"** ให้กดปุ่ม **"Yes"**
+     - หน้าจอ MPC-BE จะมืดลง ให้ใช้เมาส์ลากคลุมพื้นที่หน้าจอที่ต้องการแปลภาษา
+   - **削除 (Delete)** = ลบรายการ fixed translation
+     - กดปุ่ม  **削除 (Delete)**
+     - โปรแกรมจะแสดงข้อความ **"選択中の項目を削除します。設定されたデータが全て削除されます。よろしいですか？ (Delete the selected item. All set data will be deleted. Is it OK?)"** ให้กดปุ่ม **"Yes"**
+   - **閉じる (Close)** = ปิดหน้าต่าง
+
 
 ### Windows 10 OCR
 
