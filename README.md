@@ -381,11 +381,11 @@ PCOT รองรับการแปลภาษา 2 รูปแบบ ไ�
 
 ### Windows 10 OCR
 
-|หน้าจอเกม|
+|หน้าจอเกมที่ใช้ทดสอบ|
 |:-:|
 |<kbd>![PCOT_06_Windows_OCR_01](Pictures/PCOT_06_Windows_OCR_01.png)</kbd>|
 
-|Tesseract OCR|Windows 10 OCR|
+|ทดสอบด้วย Tesseract OCR engine|ทดสอบด้วย Windows 10 OCR engine|
 |-|-|
 |<kbd>![PCOT_06_Windows_OCR_02](Pictures/PCOT_06_Windows_OCR_02.png)</kbd>|<kbd>![PCOT_06_Windows_OCR_03](Pictures/PCOT_06_Windows_OCR_03.png)</kbd>|
 |Are you supporting Link in his ﬂzght? Is there really nothing more 乃 can do?|Are you supporting Link in his fight? Is there really nothing more I can do?|
