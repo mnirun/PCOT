@@ -172,28 +172,18 @@ MPC-BE โปรแกรมเล่นสื่อมัลติมีเด�
      <kbd>![PCOT_02_Setup_06_02](Pictures/PCOT_02_Setup_06_02.png)</kbd>
 
      <kbd>![PCOT_02_Setup_08](Pictures/PCOT_02_Setup_08.png)</kbd>
- - เมื่อเปลี่ยนฟอนต์เสร็จแล้ว ให้
+ - เมื่อเปลี่ยนฟอนต์เสร็จแล้ว ให้ติ๊กถูกที่ **"終了時に画面の座標とサイズを記憶 (Remember screen coordinates and size on exit)"** เพื่อให้ PCOT จำตำแหน่งและขนาดหน้าจอเมื่อปิดโปรแกรม
+
+   <kbd>![PCOT_02_Setup_09_01](Pictures/PCOT_02_Setup_09_01.png)</kbd>
+ - ที่รายการ **"OCR読取失敗時の挙動： ... 秒後に閉じる (OCR read failure behavior: Close after ... seconds)"** ให้เปลี่ยนเป็นเลข 1 เพื่อให้ PCOT ปิดหน้าจอการอ่าน OCR เมื่อตรวจไม่พบตัวอักษรหลังจากผ่านไป 1 วินาที
+
+   <kbd>![PCOT_02_Setup_09_02](Pictures/PCOT_02_Setup_09_02.png)</kbd>
+ - จากนั้นให้
    - กดปุ่ม **"確定 (Confirm)"** เพื่อยืนยันการตั้งค่า
    - หรือกดปุ่ม **"キャンセル (Cancel)"** ขวาสุด เพื่อยกเลิกการตั้งค่า
    - หรือกดปุ่ม **"リセット (Reset)"** ซ้ายสุด เพื่อรีเซ็ตเป็นค่าเริ่มต้น
 
-     <kbd>![PCOT_02_Setup_09](Pictures/PCOT_02_Setup_09.png)</kbd>
-
-##### รายการตั้งค่าอื่น ๆ ที่น่าสนใจ
-
- - 共通動作設定 (Common operation settings)
-   - 終了時に画面の座標とサイズを記憶 (Remember screen coordinates and size on exit)
-
-     <kbd>![PCOT_02_Setup_09_01](Pictures/PCOT_02_Setup_09_01.png)</kbd>
-   - 翻訳後に音声出力 (Voice output after translation)
-  
-     <kbd>![PCOT_02_Setup_09_02](Pictures/PCOT_02_Setup_09_02.png)</kbd>
-   - 範囲選択時にスクリーンショット取得 (Take a screenshot when selecting a range)
-  
      <kbd>![PCOT_02_Setup_09_03](Pictures/PCOT_02_Setup_09_03.png)</kbd>
-   - 翻訳後にフォーカスを対象プロセスに戻す (Return focus to target process after translation)
-  
-     <kbd>![PCOT_02_Setup_09_04](Pictures/PCOT_02_Setup_09_04.png)</kbd>
 
 #### การเพิ่มภาษา
 
