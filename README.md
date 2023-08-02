@@ -18,6 +18,7 @@
    - [การแปลภาษาแบบ Fixed Translation](#การแปลภาษาแบบ-fixed-translation)
      - [การสร้างรายการ Fixed Translation](#การสร้างรายการ-fixed-translation)
      - [การแก้ไขรายการ Fixed Translation](#การแก้ไขรายการ-fixed-translation)
+     - [การลบรายการ Fixed Translation](#การลบรายการ-fixed-translation)
    - [Windows 10 OCR](#windows-10-ocr)
    - [Image Processing](#image-processing)
  - [ข้อมูลอ้างอิง](#ข้อมูลอ้างอิง)
@@ -348,18 +349,35 @@ PCOT รองรับการแปลภาษา 2 รูปแบบ ไ�
  - เมื่อเปิดโปรแกรมเข้ามาแล้ว ให้กดปุ่ม **"固定翻訳設定 (Fixed translation settings)"**
 
    <kbd>![PCOT_05_Fixed_Translation_01](Pictures/PCOT_05_Fixed_Translation_01.png)</kbd>
- - ที่หน้าต่าง **"固定翻訳タイトル設定 (Fixed translation title setting)"** จะมีปุ่มอยู่ทั้งหมด 4 ปุ่ม ได้แก่
-   - **新規作成 (Create New)** = สร้างรายการ fixed translation
-   - **編集 (Edit)** = แก้ไขพื้นที่หน้าจอของรายการ fixed translation
-     - หากต้องการแก้ไขพื้นที่หน้าจอของรายการ fixed translation เนื่องจากพื้นที่เดิมไม่ครอบคลุมข้อความทั้งหมด เป็นต้น ให้เลือกรายการ fixed translation ที่ต้องการ
-     - กดปุ่ม **編集 (Edit)**
-     - โปรแกรมจะแสดงข้อความ **"編集内容を保存しました。続けて翻訳範囲を編集しますか？ (Your edits have been saved. Do you want to continue editing the translation range?)"** ให้กดปุ่ม **"Yes"**
-     - หน้าจอ MPC-BE จะมืดลง ให้ใช้เมาส์ลากคลุมพื้นที่หน้าจอที่ต้องการแปลภาษา
-   - **削除 (Delete)** = ลบรายการ fixed translation
-     - กดปุ่ม  **削除 (Delete)**
-     - โปรแกรมจะแสดงข้อความ **"選択中の項目を削除します。設定されたデータが全て削除されます。よろしいですか？ (Delete the selected item. All set data will be deleted. Is it OK?)"** ให้กดปุ่ม **"Yes"**
-   - **閉じる (Close)** = ปิดหน้าต่าง
+ - เลือกรายการ fixed translation ที่ต้องการแก้ไขพื้นที่หน้าจอใหม่ ตัวอย่างเช่น พื้นที่เดิมไม่ครอบคลุมข้อความทั้งหมด, ขนาดหน้าจอของ MPC-BE เปลี่ยนไป เป็นต้น
 
+   <kbd>![PCOT_05_Fixed_Translation_15_01](Pictures/PCOT_05_Fixed_Translation_15_01.png)</kbd>
+ - กดปุ่ม **"編集 (Edit)"**
+
+   <kbd>![PCOT_05_Fixed_Translation_15_02](Pictures/PCOT_05_Fixed_Translation_15_02.png)</kbd>
+ - โปรแกรมจะแสดงข้อความ **"編集内容を保存しました。続けて翻訳範囲を編集しますか？ (Your edits have been saved. Do you want to continue editing the translation range?)"** ให้กดปุ่ม **"Yes"**
+
+   <kbd>![PCOT_05_Fixed_Translation_16](Pictures/PCOT_05_Fixed_Translation_16.png)</kbd>
+ - หน้าจอ MPC-BE จะมืดลง ให้ใช้เมาส์ลากคลุมพื้นที่หน้าจอที่ต้องการแปลภาษา
+ - PCOT จะแปลภาษาพร้อมกับอัพเดทพื้นที่หน้าจอของรายการ fixed translation ให้ใหม่
+
+#### การลบรายการ Fixed Translation
+
+ - เมื่อเปิดโปรแกรมเข้ามาแล้ว ให้กดปุ่ม **"固定翻訳設定 (Fixed translation settings)"**
+
+   <kbd>![PCOT_05_Fixed_Translation_01](Pictures/PCOT_05_Fixed_Translation_01.png)</kbd>
+ - เลือกรายการ fixed translation ที่ต้องการลบ
+
+   <kbd>![PCOT_05_Fixed_Translation_15_01](Pictures/PCOT_05_Fixed_Translation_15_01.png)</kbd>
+ - กดปุ่ม **"削除 (Delete)"**
+
+   <kbd>![PCOT_05_Fixed_Translation_15_03](Pictures/PCOT_05_Fixed_Translation_15_03.png)</kbd>
+ - โปรแกรมจะแสดงข้อความ **"選択中の項目を削除します。設定されたデータが全て削除されます。よろしいですか？ (Delete the selected item. All set data will be deleted. Is it OK?)"** ให้กดปุ่ม **"Yes"**
+
+   <kbd>![PCOT_05_Fixed_Translation_17](Pictures/PCOT_05_Fixed_Translation_17.png)</kbd>
+ - กดปุ่ม **"閉じる (Close)"**
+
+   <kbd>![PCOT_05_Fixed_Translation_18](Pictures/PCOT_05_Fixed_Translation_18.png)</kbd>
 
 ### Windows 10 OCR
 
