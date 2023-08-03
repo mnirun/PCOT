@@ -461,7 +461,7 @@ PCOT รองรับการใช้งาน Tesseract OCR engine แล�
 
  - ไปที่เมนู **"設定 (Setting)"** → **"画像加工＆OCR読取設定 (Image processing & OCR reading settings)"**
 
-   <kbd>![PCOT_06_Windows_OCR_16_01](Pictures/PCOT_06_Windows_OCR_16_01.png)</kbd>
+   <kbd>![PCOT_02_Setup_05_03](Pictures/PCOT_02_Setup_05_03.png)</kbd>
  - ที่หน้าต่าง **"画像加工&OCR読取設定 (Image processing & OCR reading settings)"** ให้กดปุ่ม **"設定選択 (Setting selection)"**
 
    <kbd>![PCOT_06_Windows_OCR_16](Pictures/PCOT_06_Windows_OCR_16.png)</kbd>
