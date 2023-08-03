@@ -462,15 +462,19 @@ PCOT รองรับการใช้งาน Tesseract OCR engine แล�
  - ไปที่เมนู **"設定 (Setting)"** → **"画像加工＆OCR読取設定 (Image processing & OCR reading settings)"**
 
    <kbd>![PCOT_06_Windows_OCR_16_01](Pictures/PCOT_06_Windows_OCR_16_01.png)</kbd>
- - ที่หน้าต่าง **"画像加工&OCR読取設定 (Image processing & OCR reading settings)"** → **"使用OCRエンジン： (OCR engine used：)"** ให้เลือก **"Windows 10 OCR"** แล้วกดปุ่ม **"保存 (Save)"** เพื่อบันทึกการตั้งค่า
+ - ที่หน้าต่าง **"画像加工&OCR読取設定 (Image processing & OCR reading settings)"** ให้กดปุ่ม **"設定選択 (Setting selection)"**
 
-   <kbd>![PCOT_06_Windows_OCR_16_01](Pictures/PCOT_06_Windows_OCR_16_01.png)</kbd>
- - กดปุ่ม **"X"** ที่มุมบนขวาเพื่อปิดหน้าต่าง
-
-   <kbd>![PCOT_06_Windows_OCR_16_02](Pictures/PCOT_06_Windows_OCR_16_02.png)</kbd>
- - สามารถตรวจสอบ OCR engine ที่ใช้อยู่ได้จาก Title ด้านบนสุด
+   <kbd>![PCOT_06_Windows_OCR_16](Pictures/PCOT_06_Windows_OCR_16.png)</kbd>
+ - ที่หน้าต่าง **"設定選択：mpc-be64 (Setting selection: mpc-be64)"** ให้เลือกบรรทัดที่ **"設定名称 (Setting name) "** ชื่อว่า **"デフォルト (Default)"** แล้วกดปุ่ม **"選択 (Selection)"**
 
    <kbd>![PCOT_06_Windows_OCR_17](Pictures/PCOT_06_Windows_OCR_17.png)</kbd>
+ - ที่รายการ **"使用OCRエンジン： (OCR engine used：)"** ให้เลือก **"Windows 10 OCR"** แล้วกดปุ่ม **"保存 (Save)"** เพื่อบันทึกการตั้งค่า
+
+   <kbd>![PCOT_06_Windows_OCR_18_01](Pictures/PCOT_06_Windows_OCR_18_01.png)</kbd>
+ - กดปุ่ม **"X"** ที่มุมบนขวาเพื่อปิดหน้าต่าง
+
+   <kbd>![PCOT_06_Windows_OCR_18_02](Pictures/PCOT_06_Windows_OCR_18_02.png)</kbd>
+ - สามารถตรวจสอบ OCR engine ที่ใช้อยู่ได้จาก Title ด้านบนสุด
 
 #### การเลือกใช้ Windows 10 OCR แบบ Fixed Translation
 
