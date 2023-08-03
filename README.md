@@ -25,6 +25,9 @@
        - [การเลือกใช้ Windows 10 OCR แบบ Free Selection](#การเลือกใช้-windows-10-ocr-แบบ-free-selection)
        - [การเลือกใช้ Windows 10 OCR แบบ Fixed Translation](#การเลือกใช้-windows-10-ocr-แบบ-fixed-translation)
    - [Image Processing](#image-processing)
+ - [PCOT Tips](#)
+   - [การสร้างชื่อเล่นโพรเซส เพื่อให้ Fixed Translation เปลี่ยนไปตามเกมต่าง ๆ](#)
+   - [เทคนิคเพิ่มความแม่นยำในการแปลให้ดีขึ้น](#)
  - [ข้อมูลอ้างอิง](#ข้อมูลอ้างอิง)
 
 ## แนะนำโปรแกรม
