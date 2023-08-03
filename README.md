@@ -21,7 +21,7 @@
      - [การลบรายการ Fixed Translation](#การลบรายการ-fixed-translation)
    - [Windows 10 OCR Engine](#windows-10-ocr-engine)
      - [การเพิ่มภาษาสำหรับ Windows 10 OCR](#การเพิ่มภาษาสำหรับ-windows-10-ocr)
-     - [การเลือกใช้ Windows 10 OCR](#การเลือกใช้-windows-10-ocr)
+   - [การตั้งค่าการอ่าน OCR](#การตั้งค่าการอ่าน-ocr)
    - [Image Processing](#image-processing)
  - [PCOT Tips](#)
    - [การสร้างชื่อเล่นโพรเซส เพื่อให้ Fixed Translation เปลี่ยนไปตามเกมต่าง ๆ](#)
@@ -453,21 +453,22 @@ PCOT รองรับการใช้งาน Tesseract OCR engine แล�
   <kbd>![PCOT_06_Windows_OCR_15](Pictures/PCOT_06_Windows_OCR_15.png)</kbd>
 - เสร็จสิ้นการเพิ่มภาษาสำหรับ Windows 10 OCR
 
-#### การเลือกใช้ Windows 10 OCR
+### การตั้งค่าการอ่าน OCR
+
+เราสามารถตั้งค่าการอ่าน OCR ของ free selection และ fixed translation ต่าง ๆ ได้ดังนี้
 
  - ไปที่เมนู **"設定 (Setting)"** → **"画像加工＆OCR読取設定 (Image processing & OCR reading settings)"**
 
    <kbd>![PCOT_02_Setup_05_03](Pictures/PCOT_02_Setup_05_03.png)</kbd>
- - ที่หน้าต่าง **"画像加工&OCR読取設定 (Image processing & OCR reading settings)"** ให้กดปุ่ม **"設定選択 (Setting selection)"** (เนื่องจากเราได้ทำการเพิ่มรายการ fixed translation เข้ามาใหม่ จึงต้องเลือกรายการ setting ให้ถูกต้องก่อนแก้ไขค่าในหน้าต่างนี้)
+ - ที่หน้าต่าง **"画像加工&OCR読取設定 (Image processing & OCR reading settings)"** ให้กดปุ่ม **"設定選択 (Setting selection)"**
 
    <kbd>![PCOT_06_Windows_OCR_16](Pictures/PCOT_06_Windows_OCR_16.png)</kbd>
- - ที่หน้าต่าง **"設定選択：mpc-be64 (Setting selection: mpc-be64)"** ให้เลือกบรรทัดที่ **"設定名称 (Setting name) "** ชื่อว่า **"デフォルト (Default)"** แล้วกดปุ่ม **"選択 (Selection)"**
+ - ที่หน้าต่าง **"設定選択：mpc-be64 (Setting selection: mpc-be64)"** ให้เลือกรายการที่ต้องการตั้งค่า ในที่นี้จะเลือกรายการ **"デフォルト (Default)"** ซึ่งเป็นรายการที่ใช้สำหรับ free selection โดยเฉพาะ จากนั้นให้กดปุ่ม **"選択 (Selection)"**
 
    <kbd>![PCOT_06_Windows_OCR_17](Pictures/PCOT_06_Windows_OCR_17.png)</kbd>
- - ที่รายการ **"使用OCRエンジン： (OCR engine used：)"** ให้เลือก **"Windows 10 OCR"** แล้วกดปุ่ม **"保存 (Save)"** เพื่อบันทึกการตั้งค่า
+ - ตั้งค่าต่าง ๆ ที่ต้องการ เช่น ภาษาต้นฉบับ, OCR engine เป็นต้น เมื่อตั้งค่าเสร็จแล้ว ให้กดปุ่ม **"保存 (Save)"**
 
    <kbd>![PCOT_06_Windows_OCR_18_01](Pictures/PCOT_06_Windows_OCR_18_01.png)</kbd>
- - ทำการแก้ไขรายการ setting ต่าง ๆ ที่ต้องการเปลี่ยนให้เป็น Windows 10 OCR ให้ครบถ้วนตามขั้นตอนข้างต้น เช่น รายการ fixed translation "An inventory description", "Conversation" เป็นต้น
  - กดปุ่ม **"X"** ที่มุมบนขวาเพื่อปิดหน้าต่าง
 
    <kbd>![PCOT_06_Windows_OCR_18_02](Pictures/PCOT_06_Windows_OCR_18_02.png)</kbd>
