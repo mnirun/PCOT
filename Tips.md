@@ -4,6 +4,7 @@
  - [PCOT Tips](#pcot-tips)
    - [การสร้างโพรเซสนามแฝง เพื่อให้ Fixed Translation เปลี่ยนไปตามเกมต่าง ๆ](#การสร้างโพรเซสนามแฝง-เพื่อให้-fixed-translation-เปลี่ยนไปตามเกมต่าง-ๆ)
    - [เทคนิคเพิ่มความแม่นยำในการแปลให้ดีขึ้น](#เทคนิคเพิ่มความแม่นยำในการแปลให้ดีขึ้น)
+   - [Free Selection ภายใน Fixed Translation](#free-selection-ภายใน-fixed-translation)
    - [PCOT Simple Mode](#pcot-simple-mode)
  - [ข้อมูลอ้างอิง](#ข้อมูลอ้างอิง)
 
@@ -73,6 +74,20 @@
    |หน้าจอ MPC-BE 50%|หน้าจอ MPC-BE 100%|
    |:-:|:-:|
    |<kbd>![PCOT_08_Tips_12](Pictures/PCOT_08_Tips_12.png)</kbd>| <kbd>![PCOT_08_Tips_15](Pictures/PCOT_08_Tips_15.png)</kbd>|
+
+### Free Selection ภายใน Fixed Translation
+
+ในการแปลภาษาแบบ free selection เมื่อต้องการเปลี่ยนภาษาต้นฉบับจะต้องเข้าไปเปลี่ยนผ่านเมนูที่มีหลายขั้นตอน หากต้องเปลี่ยนไปมาบ่อย ๆ จะเป็นเรื่องที่น่าเบื่ออยู่พอสมควร ผมจึงประยุกต์ free selection เข้ากับ fixed translation เพื่อให้แปลภาษาได้สะดวกมากขึ้นครับ
+
+ - โดยปกติเมื่อสร้างรายการ fixed translation เราต้องใช้เมาส์ลากคลุมพื้นที่หน้าจอที่ต้องการแปลภาษา โดย PCOT จะแสดงข้อมูลตำแหน่งดังรูป
+
+   <kbd>![PCOT_08_Tips_16](Pictures/PCOT_08_Tips_16.png)</kbd>
+ - แต่หากเราสร้างรายการ fixed translation เมื่อถึงขั้นตอนที่ต้องใช้เมาส์ลากคลุมพื้นที่หน้าจอที่ต้องการแปลภาษา ให้กดปุ่ม <kbd>Esc</kbd> PCOT จะแสดงไม่บันทึกข้อมูลตำแหน่งไว้ เมื่อเรียกใช้ fixed translation PCOT ก็จะให้เราใช้เมาส์ลากคลุมพื้นที่หน้าจอที่ต้องการแปลภาษา เหมือนการเรียกใช้ free selection
+
+   <kbd>![PCOT_08_Tips_17](Pictures/PCOT_08_Tips_17.png)</kbd>
+ - ทำการเพิ่ม free selection ใน fixed translation ตามต้องการ ช่วยให้แปลภาษาได้สะดวกมากขึ้นครับ
+
+   <kbd>![PCOT_08_Tips_18](Pictures/PCOT_08_Tips_18.png)</kbd>
 
 ### PCOT Simple Mode
 
