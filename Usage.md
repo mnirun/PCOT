@@ -15,8 +15,9 @@
 
 ## การใช้งาน MPC-BE
 
- - เสียบสาย HDMI จากเครื่องเล่นเกมส์เข้าไปที่ HDMI capture card
- - หากใช้ external HDMI capture card ให้เสียบสาย USB/Thunderbolt จาก capture card ไปที่คอมพิวเตอร์
+ - เสียบสาย HDMI จากเครื่องเล่นเกมส์เข้าไปที่ HDMI capture card หากใช้ external HDMI capture card ให้เสียบสาย USB/Thunderbolt จาก capture card ไปที่คอมพิวเตอร์
+
+   <kbd>![PCOT_Diagram](Pictures/PCOT_Diagram.png)</kbd>
  - รันไฟล์ **"C:\Translator\MPC-BE.1.6.8.5.x64\mpc-be64.exe"**
  - ไปที่เมนู **"File"** → **"Open Device..."**
 
