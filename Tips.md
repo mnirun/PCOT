@@ -1,0 +1,86 @@
+# แปลเกมเป็นภาษาไทยแบบเรียลไทม์ด้วยโปรแกรม PCOT: PCOT Tips
+ปรับปรุงล่าสุด: 14 ส.ค. 2566
+
+ - [PCOT Tips](#pcot-tips)
+   - [การสร้างโพรเซสนามแฝง เพื่อให้ Fixed Translation เปลี่ยนไปตามเกมต่าง ๆ](#การสร้างโพรเซสนามแฝง-เพื่อให้-fixed-translation-เปลี่ยนไปตามเกมต่าง-ๆ)
+   - [เทคนิคเพิ่มความแม่นยำในการแปลให้ดีขึ้น](#เทคนิคเพิ่มความแม่นยำในการแปลให้ดีขึ้น)
+   - [PCOT Simple Mode](#pcot-simple-mode)
+ - [ข้อมูลอ้างอิง](#ข้อมูลอ้างอิง)
+
+## PCOT Tips
+ 
+### การสร้างโพรเซสนามแฝง เพื่อให้ Fixed Translation เปลี่ยนไปตามเกมต่าง ๆ
+
+ - ที่หน้าจอโพรเซส ให้กดปุ่ม **"追加 (Addition)"** ด้านหลังรายการโพรเซสที่ชื่อว่า **"mpc-be64"**
+
+   <kbd>![PCOT_08_Tips_01](Pictures/PCOT_08_Tips_01.png)</kbd>
+ - จะปรากฎหน้าต่าง โพรเซสนามแฝง **"プロセス別名設定 (process aliasing)"** ตั้งชื่อนามแฝงที่ต้องการ แล้วกดปุ่ม **"確定 (Confirm)"**
+
+   <kbd>![PCOT_08_Tips_02](Pictures/PCOT_08_Tips_02.png)</kbd>
+
+   <kbd>![PCOT_08_Tips_03_01](Pictures/PCOT_08_Tips_03_01.png)</kbd>
+
+   <kbd>![PCOT_08_Tips_03_02](Pictures/PCOT_08_Tips_03_02.png)</kbd>
+ - เลือกรายการโพรเซสนามแฝงที่ได้สร้างขึ้นมาใหม่ แล้วกดปุ่ม **"選択 (Selection)"**
+
+   <kbd>![PCOT_08_Tips_04](Pictures/PCOT_08_Tips_04.png)</kbd>
+ - PCOT จะแสดงชื่อโพรเซสนามแฝงไว้ที่มุมล่างซ้ายของโปรแกรม โดยในหน้าต่างโพรเซสนามแฝงนี้จะไม่มีรายการ fixed translation มาให้ เราจึงสามารถสร้าง fixed translation แยกตามเกมที่เราเล่นได้
+
+   <kbd>![PCOT_08_Tips_05_01](Pictures/PCOT_08_Tips_05_01.png)</kbd>
+ - หากต้องการกลับไปที่หน้าจอโพรเซส ให้กดปุ่ม **"プロセス再選択 (Process reselection)"** ทางด้านล่างซ้าย
+
+   <kbd>![PCOT_08_Tips_05_02](Pictures/PCOT_08_Tips_05_02.png)</kbd>
+ - ทดลองสร้างโพรเซสนามแฝงขึ้นมาใหม่ แล้วกดปุ่ม **"選択 (Selection)"**
+
+   <kbd>![PCOT_08_Tips_06_01](Pictures/PCOT_08_Tips_06_01.png)</kbd>
+ - PCOT จะแสดงชื่อโพรเซสนามแฝงใหม่ไว้ที่มุมล่างซ้ายของโปรแกรม
+
+   <kbd>![PCOT_08_Tips_07](Pictures/PCOT_08_Tips_07.png)</kbd>
+ - หากต้องการลบการตั้งค่าต่าง ๆ ไม่ว่าจะเป็นโพรเซสหลัก หรือโพรเซสนามแฝง ให้กลับไปที่หน้าจอโพรเซส แล้วกดปุ่ม **"削除 (Delete)"** ที่อยู่ด้านหลังสุดของรายการโพรเซส PCOT จะแสดงข้อความว่า **"プロセスに紐づく全てのデータを削除します。よろしいですか？※データを削除した場合は復旧できません。 (Delete all data associated with the process. Is it OK? ※If data is deleted, it cannot be recovered.)"** ให้กดปุ่ม **"Yes"**
+
+   <kbd>![PCOT_08_Tips_06_02](Pictures/PCOT_08_Tips_06_02.png)</kbd>
+
+   <kbd>![PCOT_08_Tips_08](Pictures/PCOT_08_Tips_08.png)</kbd>
+
+### เทคนิคเพิ่มความแม่นยำในการแปลให้ดีขึ้น
+
+ เราสามารถเพิ่มความแม่นยำในการแปลให้ดีขึ้นได้ 2-3 วิธี ได้แก่
+
+  #### ปรับหน้าจอ MPE-BE ให้ใหญ่ขึ้น
+
+ การปรับหน้าจอ MPE-BE ให้ใหญ่ขึ้น ไม่ว่าจะเป็นการเพิ่มขนาดหน้าจอ เช่น จาก 50% → 100% หรือ Fullscreen ช่วยให้ตัวอักษรของเกมขยายใหญ่ขึ้น OCR อ่านตัวอักษรได้แม่นยำขึ้น ยกตัวอย่างเช่น
+
+ - หน้าขอ MPC-BE 50% ตัวอักษรสีแดงพื้นหลังสีมืด คำว่า "Ganon" ดูแล้วน่าจะอ่านได้ไม่ยาก แต่ OCR กลับอ่านเป็นคำว่า "Canon" แทน
+
+   <kbd>![PCOT_08_Tips_09](Pictures/PCOT_08_Tips_09.png)</kbd>
+
+   <kbd>![PCOT_08_Tips_10](Pictures/PCOT_08_Tips_10.png)</kbd>
+ - ลองขยายภาพจาก 3.0 ไปเป็น 5.0 ผลลัพธ์ก็เหมือนเดิม
+
+   <kbd>![PCOT_08_Tips_11](Pictures/PCOT_08_Tips_11.png)</kbd>
+
+   <kbd>![PCOT_08_Tips_12](Pictures/PCOT_08_Tips_12.png)</kbd>
+ - ทดลองขยายหน้าจอเป็น 100% OCR สามารถอ่านข้อความได้ถูกต้อง
+
+   <kbd>![PCOT_08_Tips_13](Pictures/PCOT_08_Tips_13.png)</kbd>
+
+   <kbd>![PCOT_08_Tips_14](Pictures/PCOT_08_Tips_14.png)</kbd>
+
+   <kbd>![PCOT_08_Tips_15](Pictures/PCOT_08_Tips_15.png)</kbd>
+
+ - เปรียบเทียบหน้าจอที่ขยายด้วยการใช้เครื่องมือ **"倍率 (Magnification)"** ในโปรแกรม PCOT กับขยายด้วยโปรแกรม MPC-BE ถึงจะได้ขนาดตัวอักษรพอกัน แต่ผลลัพธ์กลับต่างกัน การขยายหน้าจอที่ต้นทางให้ใหญ่ที่สุดจะได้ผลลัพธ์ที่ดีกว่าขยายด้วยเครื่องมือที่ปลายทาง ยิ่งเป็นภาษายี่ปุ่นจะเห็นผลลัพธ์ที่แตกต่างกันมากครับ
+
+   |หน้าจอ MPC-BE 50%|หน้าจอ MPC-BE 100%|
+   |:-:|:-:|
+   |<kbd>![PCOT_08_Tips_12](Pictures/PCOT_08_Tips_12.png)</kbd>| <kbd>![PCOT_08_Tips_15](Pictures/PCOT_08_Tips_15.png)</kbd>|
+
+### PCOT Simple Mode
+
+Coming soon!
+
+## ข้อมูลอ้างอิง
+ - [Guide :: Recommended Screen Translation Software](https://steamcommunity.com/sharedfiles/filedetails/?id=2847675160)
+ - [画面翻訳で簡単に日本語化可能！"PCOT"の使い方ガイド](https://steamcommunity.com/sharedfiles/filedetails/?id=2649183272)
+ - [PCOTで日本未対応のゲームを簡単翻訳！便利な機能と使い方を紹介](https://yamachannel-blog.com/game-translation/)
+ - [PCOTで日本語未対応のゲームを簡単翻訳！導入方法と基本的な使い方を紹介](https://yamachannel-blog.com/game-translation-pcot/)
+ - [An Experimental Performance Analysis on Robotics Process Automation (RPA) With Open Source OCR Engines: Microsoft Ocr And Google Tesseract OCR](https://iopscience.iop.org/article/10.1088/1757-899X/1059/1/012004)
