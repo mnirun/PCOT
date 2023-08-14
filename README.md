@@ -28,6 +28,7 @@
  - [PCOT Tips](Tips.md#pcot-tips)
    - [การสร้างโพรเซสนามแฝง เพื่อให้ Fixed Translation เปลี่ยนไปตามเกมต่าง ๆ](Tips.md#การสร้างโพรเซสนามแฝง-เพื่อให้-fixed-translation-เปลี่ยนไปตามเกมต่าง-ๆ)
    - [เทคนิคเพิ่มความแม่นยำในการแปลให้ดีขึ้น](Tips.md#เทคนิคเพิ่มความแม่นยำในการแปลให้ดีขึ้น)
+   - [Free Selection ภายใน Fixed Translation](Tips.md#free-selection-ภายใน-fixed-translation)
    - [PCOT Simple Mode](Tips.md#pcot-simple-mode)
  - [ภาษาญี่ปุ่นทั้งหมด](#ภาษาญี่ปุ่นทั้งหมด)
  - [ข้อมูลอ้างอิง](#ข้อมูลอ้างอิง)
