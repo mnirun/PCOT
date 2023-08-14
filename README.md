@@ -29,6 +29,7 @@
    - [การสร้างโพรเซสนามแฝง เพื่อให้ Fixed Translation เปลี่ยนไปตามเกมต่าง ๆ](Tips.md#การสร้างโพรเซสนามแฝง-เพื่อให้-fixed-translation-เปลี่ยนไปตามเกมต่าง-ๆ)
    - [เทคนิคเพิ่มความแม่นยำในการแปลให้ดีขึ้น](Tips.md#เทคนิคเพิ่มความแม่นยำในการแปลให้ดีขึ้น)
    - [PCOT Simple Mode](Tips.md#pcot-simple-mode)
+ - [ภาษาญี่ปุ่นทั้งหมด](#ภาษาญี่ปุ่นทั้งหมด)
  - [ข้อมูลอ้างอิง](#ข้อมูลอ้างอิง)
 
 ## แนะนำโปรแกรม
@@ -85,6 +86,26 @@
 ## [PCOT Tips](Tips.md#pcot-tips)
 
 กดที่หัวข้อด้านบนของบรรทัดนี้เพื่ออ่านต่อนะครับ เนื่องจากใส่รูปในหน้าเดียวกันมากเกินไปจน GitHub ban เลยต้องแบ่งเป็นหน้าย่อย ๆ ครับ
+
+## ภาษาญี่ปุ่นทั้งหมด
+
+### เมนู
+
+ - **プロセス** Process
+   - **プロセス再選択** Process reselection
+   - **プロセス接続解除** Process disconnect
+   - **プロセス再接続** Process reconnection
+ - **表示** Express
+   - **シンプル表示** Simple display
+ - **設定** Setting
+   - **システム設定** System setting
+   - **画像加工＆OCR読取設定** Image processing & OCR reading settings
+   - **OCR言語設定** OCR language setting
+   - **改行詳細設定** Advanced line break settings
+   - **翻訳機能を無効** Disable translation function
+ - **情報** Information
+ - **終了** End
+   - **PCOTを終了** Exit PCOT
 
 ## ข้อมูลอ้างอิง
  - [Guide :: Recommended Screen Translation Software](https://steamcommunity.com/sharedfiles/filedetails/?id=2847675160)
