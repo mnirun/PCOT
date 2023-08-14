@@ -107,6 +107,36 @@
  - **終了** End
    - **PCOTを終了** Exit PCOT
 
+### แถบเครื่องมือด้านบน
+
+ - **固定翻訳設定** Fixed translation settings
+ - **フリー選択** Free selection
+ - **翻訳** Translation
+ - **画像翻訳** Image translation
+ - **対象通りに改行** Line breaks as intended
+ - **改行を無視** Ignore newlines
+ - **履歴リスト** History list
+ - **辞書リスト** Dictionary list
+ - **名詞リスト** Noun list
+
+### แถบเครื่องมือตรงกลาง
+
+ - **再翻訳** Retranslation
+ - **クリア** Clear
+ - **翻訳結果出力** Translation result output
+ - **外部翻訳アプリと連携** Works with external translation apps
+ - **翻訳結果をコピー** Copy translation result
+ - **履歴登録** History registration
+ - **辞書登録** Dictionary registration
+ - **名詞登録** Noun registration
+
+### แถบเครื่องมือด้านล่าง
+
+ - **プロセス再選択** Process reselection
+ - **接続解除** Disconnect
+ - **簡易コマンドに切替** Switch to simple command
+ - **PCOTを終了** Exit PCOT
+
 ## ข้อมูลอ้างอิง
  - [Guide :: Recommended Screen Translation Software](https://steamcommunity.com/sharedfiles/filedetails/?id=2847675160)
  - [画面翻訳で簡単に日本語化可能！"PCOT"の使い方ガイド](https://steamcommunity.com/sharedfiles/filedetails/?id=2649183272)
