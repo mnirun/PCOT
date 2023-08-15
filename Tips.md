@@ -4,6 +4,7 @@
  - [PCOT Tips](#pcot-tips)
    - [การสร้างโพรเซสนามแฝง เพื่อให้ Fixed Translation เปลี่ยนไปตามเกมต่าง ๆ](#การสร้างโพรเซสนามแฝง-เพื่อให้-fixed-translation-เปลี่ยนไปตามเกมต่าง-ๆ)
    - [เทคนิคเพิ่มความแม่นยำในการแปลให้ดีขึ้น](#เทคนิคเพิ่มความแม่นยำในการแปลให้ดีขึ้น)
+   - [เทคนิคเพิ่มความแม่นยำในการแปลให้ดีขึ้นไปอีกด้วย tessdata_best](#เทคนิคเพิ่มความแม่นยำในการแปลให้ดีขึ้นไปอีกด้วย-tessdata_best)
    - [Free Selection ภายใน Fixed Translation](#free-selection-ภายใน-fixed-translation)
    - [PCOT Simple Mode](#pcot-simple-mode)
  - [ข้อมูลอ้างอิง](#ข้อมูลอ้างอิง)
@@ -74,6 +75,20 @@
    |หน้าจอ MPC-BE 50%|หน้าจอ MPC-BE 100%|
    |:-:|:-:|
    |<kbd>![PCOT_08_Tips_12](Pictures/PCOT_08_Tips_12.png)</kbd>| <kbd>![PCOT_08_Tips_15](Pictures/PCOT_08_Tips_15.png)</kbd>|
+
+### เทคนิคเพิ่มความแม่นยำในการแปลให้ดีขึ้นไปอีกด้วย tessdata_best
+
+ไฟล์ภาษาของ Tesseract OCR จะแบ่งออกเป็น 3 ชุด ได้แก่
+
+|ชุดไฟล์|ความเร็ว|ความแม่นยำ|
+|:-|:-|:-|
+|[tessdata_fast](https://github.com/tesseract-ocr/tessdata_fast)|:star::star::star:|:star:|
+|[tessdata](https://github.com/tesseract-ocr/tessdata)|:star::star:|:star::star:|
+|[tessdata_best](https://github.com/tesseract-ocr/tessdata_best)|:star:|:star::star::star:|
+
+โดย PCOT เลือกใช้ชุด [tessdata](https://github.com/tesseract-ocr/tessdata) ที่มีความสมดุลของความเร็วและความแม่นยำในการแปลงตัวอักษร หากเราต้องการความแม่นยำที่ดีที่สุดสามารถเลือกใช้ชุดไฟล์ [tessdata_best](https://github.com/tesseract-ocr/tessdata_best) โดยทำการโหลดไฟล์ภาษาที่ต้องการ แล้วย้ายไฟล์นั้นไปไว้ที่ "C:\Translator\PCOT\tessdata\" ทับไฟล์เดิมที่มีอยู่ได้เลยครับ
+
+เพียงเท่านี้เราก็เพิ่มความแม่นยำในการแปลให้ดีขึ้นได้แลกกับเวลาที่มากขึ้น ส่วนตัวผมเองเลือกใช้ชุดไฟล์ [tessdata_best](https://github.com/tesseract-ocr/tessdata_best) ครับ
 
 ### Free Selection ภายใน Fixed Translation
 
