@@ -86,9 +86,13 @@
 |[tessdata](https://github.com/tesseract-ocr/tessdata)|:star::star:|:star::star:|
 |[tessdata_best](https://github.com/tesseract-ocr/tessdata_best)|:star:|:star::star::star:|
 
-โดย PCOT เลือกใช้ชุด [tessdata](https://github.com/tesseract-ocr/tessdata) ที่มีความสมดุลของความเร็วและความแม่นยำในการแปลงตัวอักษร หากเราต้องการความแม่นยำที่ดีที่สุดสามารถเลือกใช้ชุดไฟล์ [tessdata_best](https://github.com/tesseract-ocr/tessdata_best) โดยทำการโหลดไฟล์ภาษาที่ต้องการ แล้วย้ายไฟล์นั้นไปไว้ที่ "C:\Translator\PCOT\tessdata\" ทับไฟล์เดิมที่มีอยู่ได้เลยครับ
+PCOT เลือกใช้ชุด [tessdata](https://github.com/tesseract-ocr/tessdata) ที่มีความสมดุลของความเร็วและความแม่นยำในการแปลงตัวอักษร หากเราต้องการความแม่นยำที่ดีที่สุดสามารถเลือกใช้ชุดไฟล์ [tessdata_best](https://github.com/tesseract-ocr/tessdata_best) โดยทำการโหลดไฟล์ภาษาที่ต้องการ แล้วย้ายไฟล์นั้นไปไว้ที่ "C:\Translator\PCOT\tessdata\" ทับไฟล์เดิมที่มีอยู่ได้เลย โดยสามารถดูรายชื่อตัวย่อภาษาต่าง ๆ (LangCode) ได้ที่ [Languages/Scripts supported in different versions of Tesseract](https://tesseract-ocr.github.io/tessdoc/Data-Files-in-different-versions.html) ครับ
 
-เพียงเท่านี้เราก็เพิ่มความแม่นยำในการแปลให้ดีขึ้นได้แลกกับเวลาที่มากขึ้น ส่วนตัวผมเองเลือกใช้ชุดไฟล์ [tessdata_best](https://github.com/tesseract-ocr/tessdata_best) ครับ
+<kbd>![PCOT_08_Tips_19](Pictures/PCOT_08_Tips_19.png)</kbd>
+
+<kbd>![PCOT_08_Tips_20](Pictures/PCOT_08_Tips_20.png)</kbd>
+
+เพียงเท่านี้เราก็เพิ่มความแม่นยำในการแปลให้ดีขึ้นได้แลกกับเวลาที่มากขึ้นบ้าง ส่วนตัวผมเองเลือกใช้ชุดไฟล์ [tessdata_best](https://github.com/tesseract-ocr/tessdata_best) ครับ
 
 ### Free Selection ภายใน Fixed Translation
 
