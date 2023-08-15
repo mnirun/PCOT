@@ -1,5 +1,5 @@
 # แปลเกมเป็นภาษาไทยแบบเรียลไทม์ด้วยโปรแกรม PCOT: การติดตั้งโปรแกรม
-ปรับปรุงล่าสุด: 14 ส.ค. 2566
+ปรับปรุงล่าสุด: 15 ส.ค. 2566
 
  - [การติดตั้งโปรแกรม](#การติดตั้งโปรแกรม)
    - [การติดตั้งโปรแกรม PCOT](#การติดตั้งโปรแกรม-pcot)
@@ -26,7 +26,7 @@
    |ไฟล์ language.dat ต้นฉบับ|ไฟล์ mod language.dat เป็นภาษาอังกฤษ|
    |:-:|:-:|
    |![PCOT_02_Setup_92](Pictures/PCOT_01_Download_92.png)|![PCOT_02_Setup_93](Pictures/PCOT_01_Download_93.png)|
-   - เปิดไปที่ [/tessdata/PCOT_1.6.0/language.zip](/tessdata/PCOT_1.6.0/language.zip)
+   - เปิดไปที่ [/tessdata/PCOT_1.6.1/language.zip](/tessdata/PCOT_1.6.1/language.zip)
    - กดปุ่ม **"Download raw file"**
   
      <kbd>![PCOT_02_Setup_90](Pictures/PCOT_01_Download_90.png)</kbd>
