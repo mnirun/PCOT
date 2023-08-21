@@ -1,12 +1,11 @@
 # แปลเกมเป็นภาษาไทยแบบเรียลไทม์ด้วยโปรแกรม PCOT: PCOT Tips
-ปรับปรุงล่าสุด: 15 ส.ค. 2566
+ปรับปรุงล่าสุด: 21 ส.ค. 2566
 
  - [PCOT Tips](#pcot-tips)
    - [การสร้างโพรเซสนามแฝง เพื่อให้ Fixed Translation เปลี่ยนไปตามเกมต่าง ๆ](#การสร้างโพรเซสนามแฝง-เพื่อให้-fixed-translation-เปลี่ยนไปตามเกมต่าง-ๆ)
    - [เทคนิคเพิ่มความแม่นยำในการแปลให้ดีขึ้น](#เทคนิคเพิ่มความแม่นยำในการแปลให้ดีขึ้น)
    - [เทคนิคเพิ่มความแม่นยำในการแปลให้ดีขึ้นไปอีกด้วย tessdata_best](#เทคนิคเพิ่มความแม่นยำในการแปลให้ดีขึ้นไปอีกด้วย-tessdata_best)
    - [Free Selection ภายใน Fixed Translation](#free-selection-ภายใน-fixed-translation)
-   - [PCOT Simple Mode](#pcot-simple-mode)
  - [ข้อมูลอ้างอิง](#ข้อมูลอ้างอิง)
 
 ## PCOT Tips
@@ -107,7 +106,3 @@ PCOT เลือกใช้ชุด [tessdata](https://github.com/tesseract-o
  - ทำการเพิ่ม free selection ใน fixed translation ตามต้องการ ช่วยให้แปลภาษาได้สะดวกมากขึ้นครับ
 
    <kbd>![PCOT_08_Tips_18](Pictures/PCOT_08_Tips_18.png)</kbd>
-
-### PCOT Simple Mode
-
-Coming soon!
